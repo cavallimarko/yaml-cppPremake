@@ -27,6 +27,11 @@ project "yaml-cpp"
 		systemversion "latest"
 		cppdialect "C++20"
 		staticruntime "off"
+		
+		buildoptions
+		{
+			"/utf-8"
+		}
 
 	filter "system:linux"
 		pic "On"
